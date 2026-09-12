@@ -6,6 +6,11 @@
   "keywords": [],
   "author": "Denys Mahei <denmahei@gmail.com>",
   "license": "ISC",
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:web": "turbo dev --filter web",
+    "dev:mobile": "turbo dev --filter mobile"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
